@@ -1,7 +1,7 @@
 # Maintainer: Ticiano Lage <ticianoarraeslage@gmail.com>
 # Debian Package Maintainer: GAS Tecnologia <supportgas@dieboldnixdorf.com>
 
-pkgname=warsaw
+pkgname=warsaw-bb
 pkgver=0.1
 pkgrel=1
 pkgdesc=""
@@ -11,7 +11,7 @@ license=('unknown')
 depends=('openssl>=1.0' 'curl' 'nss')
 provides=('warsaw')
 source=(
-    "https://cloud.gastecnologia.com.br/bb/downloads/ws/${pkgname}_setup64.deb"
+    "https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb"
     'warsaw.service'
 )
 md5sums=(
